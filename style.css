@@ -1,0 +1,174 @@
+table , th , td{
+    margin: 1px;
+    border: 3px solid black;
+    
+}
+table{
+    
+        border-collapse: separate;
+        text-indent: initial;
+        border-spacing: 2px;
+    font-size: 100%;
+}
+
+img{
+    background-color:black;
+    height: 90px;
+    display: block;
+    color: #1bd760;
+}
+
+
+
+.header{
+height: 80px; 
+display: flex;
+flex-direction: row;
+justify-content: space-between; 
+border-bottom: 1px solid black ;
+position: absolute;
+top: 0px;
+right: 0;
+left: 161px;
+}
+.left-section{
+ background-color: lightblue;
+width: 250px;
+
+align-items: center;
+}
+
+.right-section{
+    background-color: lightblue;
+    width: 290px;
+    display: block;
+    align-items: center;
+    float: right;
+    margin-top: 2.5em;
+}
+div{
+    display: block;
+}
+#search-bar{
+    float: right;
+    margin-right: 0;
+    margin-top: 18.5px;
+}    
+
+.logo-2{
+    background-color: #1bd760;
+    width: 150px;
+    height: 50px;
+}
+.sidebar {
+    background-color: white;
+position: fixed;
+left: 0;
+bottom: 0;
+top: 0px;
+width: 10em;
+border-right: 1px solid black;
+}
+.info{
+    padding-top: 100px;
+    padding-left: 170px;
+}
+p{
+    fallback: sans-serif;
+}
+nav {
+    flex-direction: row;
+}
+table {
+    text-align: center;
+    border: 1px ;
+    border-collapse: collapse;
+}
+tr, td {
+    padding: 14px;
+    margin: 0;
+}
+
+table, th, td {
+text-align: center;
+border: 1px solid black;
+
+}
+.type {
+    background-color: rgb(178, 178, 178);
+}
+.red{
+    background-color: #FFC7C7;
+}
+.green{
+     background-color: #1bd760;
+    }
+
+
+
+
+
+
+
+
+    
+.abonamenti caption {
+    text-align: left;
+    font-size: 2.5rem;
+
+    font-weight: 200;
+}
+
+.abonamenti {
+    font-size: 0.85rem;
+    width: 90%;
+    border: unset;
+    border-spacing: 30px;
+    border-collapse: separate;
+}
+
+.info2 {
+    vertical-align: top;
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .12);
+    border: 1px solid #e4e8f0;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.info2 h2 {
+   
+    font-weight: 100;
+    font-size: 2em;
+}
+
+tfoot .info2 {
+    background: #0742cd;
+    border: 1px solid #0742cd;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    transition: all 350ms ease;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+}
+
+tfoot .info2:hover {
+    box-shadow: 0 6px 30px 0 #739bfa;
+    cursor: pointer;
+}
+
+tfoot .info2 a {
+    text-decoration: unset;
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+}
+
+tbody .info .info2:hover {
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    transition: box-shadow 350ms ease-in-out;
+}
+tbody p {
+    text-align: left;
+    fallback: sans-serif;   
+}
